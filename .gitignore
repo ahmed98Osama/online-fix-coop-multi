@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+*.env.local
+
+# Scraped images (local dataset, re-downloadable via CLI)
+images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+
+# OS artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs & Temporary debug files
+*.log
+scratch/
